@@ -1,0 +1,14 @@
+﻿<Window x:Class="QLBanHang.form_MuaBan"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLBanHang"
+        mc:Ignorable="d"
+        Title="form_MuaBan" Height="450" Width="800">
+    <Grid>
+        <Label Content="Quản lý mua bán" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Button x:Name="btnDong" Content="Đóng" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" Height="30" Width="104" Click="btnDong_Click"/>
+
+    </Grid>
+</Window>
